@@ -10,7 +10,7 @@ figlet_line = figlet_format(opening_line)
 colored_line = colored(figlet_line, color="blue", attrs=["blink"])
 print(colored_line)
 
-#Choos a topic
+#Choose a topic
 topic = input("Let me tell you a joke! Give me a topic: ")
 
 #Dad Joke Request
