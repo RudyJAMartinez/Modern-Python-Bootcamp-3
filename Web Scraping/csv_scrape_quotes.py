@@ -38,6 +38,7 @@ def scrape_quotes():
 	while url:
 		res = requests.get(f"{base_url}{url}")
 		soup = BeautifulSoup(res.text, "html.parser")
+		quotes = soup.find_all(class_ = "quote")
 
 		for quote in quotes:
 			all_quotes.append({
