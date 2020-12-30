@@ -26,6 +26,7 @@ import requests
 from bs4 import BeautifulSoup
 from csv import writer
 from random import choice
+from time import sleep
 
 
 # Base url and url
